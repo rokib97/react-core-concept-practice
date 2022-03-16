@@ -19,11 +19,11 @@ const Countries = () => {
           <Country
             country={country}
             key={country.cca3}
-            // nameOfCountry={country.name.common}
-            // population={country.population}
-            // image={country.flags.png}
-            // area={country.area}
-            // region={country.region}
+            /* nameOfCountry={country.name.common}
+            population={country.population}
+            image={country.flags.png}
+            area={country.area}
+            region={country.region} */
           ></Country>
         ))}
       </div>
